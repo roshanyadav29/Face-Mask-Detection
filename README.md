@@ -1,5 +1,7 @@
 # Face Mask Detection using Arduino and Python
 
+![Final Assembly](https://github.com/roshanyadav29/Face-Mask-Detection/blob/main/Ref%20Images/Sample-Security-Model.jpg)
+
 ## Description
 This project showcases my expertise in computer vision, Arduino programming, and Python integration, addressing the critical need for safety measures during the COVID-19 pandemic.
 
