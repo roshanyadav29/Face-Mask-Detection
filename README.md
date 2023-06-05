@@ -1,7 +1,6 @@
-# Face-Mask-Detection
-Face Mask Detection using Arduino and Python
+# Face Mask Detection using Arduino and Python
 
-# Description
+## Description
 This project showcases my expertise in computer vision, Arduino programming, and Python integration, addressing the critical need for safety measures during the COVID-19 pandemic.
 
 The primary objective of this project was to create a model for face mask detection using Python. Leveraging the power of OpenCV and TensorFlow, I trained a custom model to accurately detect whether individuals are wearing face masks. The model combines image processing techniques and machine learning algorithms to provide real-time detection and classification of faces with or without masks.
