@@ -1,4 +1,4 @@
-# import the necessary packages
+# Import the necessary packages
 from controller import doorAutomate
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
@@ -12,7 +12,7 @@ import os
 
 lowConfidence = 0.75
 
-#face detectinon function
+# Face detectinon function
 def detectAndPredictMask(frame, faceNet, maskNet):
 
 	(h, w) = frame.shape[:2]
@@ -68,7 +68,7 @@ weightsPath = r"res10_300x300_ssd_iter_140000.caffemodel"
 faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 # load the face mask detector model from disk
-maskNet = load_model("mask_detector.model")
+maskNet = load_model("mask_detector.h5")
 
 # initialize the video stream
 vs = VideoStream(src=0).start()

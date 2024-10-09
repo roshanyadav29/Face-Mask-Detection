@@ -41,7 +41,7 @@ To use Face Mask Detection, follow these steps:
 1. Open the Arduino IDE and upload the Arduino code to your Arduino board.
 2. Run the Python script:
 ```bash
-python mask_detection.py
+python DetecMask.py
 ```
 
 ## How it Works
@@ -63,4 +63,3 @@ If you want to contact me, you can reach me at `30005500@iitb.ac.in`.
 
 ## License
 This project uses the following license: `<MIT License>`.
-```
